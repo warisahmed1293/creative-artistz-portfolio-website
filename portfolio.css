@@ -1,0 +1,108 @@
+.bgImages span {
+    position: absolute;
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    top: 40%;
+    left: 40%;
+}
+
+.mainImage {
+    display: flex;
+    width: 2000px;
+}
+
+.child {
+    width: 300px;
+    height: 200px;
+    /* background-color: aquamarine; */
+    margin: 30px;
+}
+
+.textArea {
+
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+    padding-left: 20%;
+    padding-right: 25%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.mainImage {
+    width: 1900px;
+    height: 700px;
+}
+
+@media (max-width: 650px) {
+    .textArea {
+        margin-top: 10%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .bgImages span {
+        position: absolute;
+        color: white;
+        font-size: 24px;
+        font-weight: 700;
+        top: 18%;
+        left: 22%;
+    }
+
+    .mainImage {
+        width: 411px;
+        height: 200px;
+    }
+
+    .textArea {
+        display: block;
+        text-align: center;
+    }
+}
+
+lottie-player {
+    width: 500px;
+    position: relative;
+    left: 50%;
+}
+
+@media (max-width: 1024px) {
+    lottie-player {
+        width: 250px;
+        left: 20%;
+    }
+
+    .wave2-bg {
+        position: absolute;
+        top: 53%;
+    }
+
+    .mainHeading {
+        text-align: center;
+        top: 0%;
+        position: relative;
+    }
+
+    .mainHeading h1 {
+        font-size: 32px
+    }
+}
+
+@media (min-width:900px) {
+
+    .mainHeading {
+        position: relative;
+        top: 25%;
+    }
+
+    .mainHeading h1 {
+        font-size: 50px;
+    }
+}
